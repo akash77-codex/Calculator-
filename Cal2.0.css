@@ -1,0 +1,93 @@
+
+
+body{
+
+
+align-content:center;
+
+
+}
+
+.cal{
+   
+    background-color:black;
+    padding: 10px;
+    width: 300px;
+    height:400px;
+    border-radius:5px;
+    position: fixed;
+    left: 50%;
+    right:50%;
+  
+}
+
+.a{
+
+  text-align:center;
+  height:40px;
+
+}
+
+.contanor{
+
+     justify-content:center;
+    
+
+}
+
+.box{
+
+    
+     display:grid;
+     grid-template-columns: repeat(4,70px);
+     grid-template-rows: repeat(5,60px);
+     justify-content:center;
+     margin-top: 40px;
+
+
+}
+
+#result{
+
+    width:300px;
+    height:60px;
+    text-align: right;
+    font-size: 50px;
+}
+
+button{
+
+    background-color:gray;
+    color:white;
+    font-size: 20px;
+}
+
+.AC{
+
+    background-color:rgb(218, 155, 20);
+}
+
+.s{
+
+    background-color:rgb(63, 186, 228);
+}
+
+
+.AC:hover{
+
+    background-color:rgb(240, 205, 8);
+}
+
+
+.s:hover{
+
+    background-color:rgb(123, 207, 228);
+}
+
+
+button:hover{
+
+    background-color:rgb(180, 158, 158);
+    
+}
+
